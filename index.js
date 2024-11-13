@@ -1,15 +1,12 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
+// chalk: Styles text in the terminal with colors and styles.
 import chalk from "chalk";
+// ora: Creates loading spinners and progress bars in the terminal.
 import ora from "ora";
+// prompt-sync: Allows synchronous user input prompts in Node.js applications.
 import prompt from "prompt-sync";
 import dotenv from "dotenv";
 dotenv.config();
-
-/*
- ora: Creates loading spinners and progress bars in the terminal.
- chalk: Styles text in the terminal with colors and styles.
- prompt-sync: Allows synchronous user input prompts in Node.js applications.
-*/
 
 const promptSync = prompt();
 
